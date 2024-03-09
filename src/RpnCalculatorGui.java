@@ -31,7 +31,7 @@ public class RpnCalculatorGui extends Frame {
 	private Button buttonCE;
 	
 	static Stack<Double> st = new Stack<Double>();
-	static Operand op = new Operand(st);    //παρατηρω πως πρεπει να αρχικοποιηθουν σε αυτο το σημειο τα st,op και οχι μεσα στον constructor!!
+	static Operand op = new Operand(st);    //Γ°Γ΅Γ±Γ΅Γ΄Γ§Γ±ΓΉ Γ°ΓΉΓ² Γ°Γ±Γ¥Γ°Γ¥Γ© Γ­Γ΅ Γ΅Γ±Γ·Γ©ΓªΓ―Γ°Γ―Γ©Γ§Γ¨Γ―ΓµΓ­ Γ³Γ¥ Γ΅ΓµΓ΄Γ― Γ΄Γ― Γ³Γ§Γ¬Γ¥Γ©Γ― Γ΄Γ΅ st,op ΓªΓ΅Γ© Γ―Γ·Γ© Γ¬Γ¥Γ³Γ΅ Γ³Γ΄Γ―Γ­ constructor!!
 	
 	static OperatorsHandler add;
 	static OperatorsHandler div;
